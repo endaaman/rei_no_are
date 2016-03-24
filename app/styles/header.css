@@ -1,0 +1,35 @@
+$headerHeight: 48px;
+$iconSize: 40px;
+
+
+.header {
+    background-color: #abfbb6;
+    padding: 8px 0;
+}
+
+
+.icon {
+    text-align: center;
+    height: $iconSize;
+    img {
+        width: $iconSize;
+        height: $iconSize;
+        border-radius: calc($iconSize / 2);
+    }
+}
+
+.message {
+    color: #260F26;
+    /*font-family: monospace;*/
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+
+    margin-top: 4px;
+}
+
+.links {
+    color: #260F26;
+    font-size: 12px;
+}

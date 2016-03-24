@@ -2,6 +2,26 @@
   "javascript": {
     "app": "/app.js"
   },
-  "styles": {},
-  "assets": {}
+  "styles": {
+    "app": "/app.css"
+  },
+  "assets": {
+    "./app/assets/endaaman.png": "/08ad1a04f7b14bd62a0087ec40381a0d.png",
+    "./app/styles/root.css": {
+      "root": "jfgce"
+    },
+    "./app/styles/header.css": {
+      "header": "_3OD-8",
+      "icon": "_2hmxy",
+      "message": "_2e9RX",
+      "links": "_2d2Gs"
+    },
+    "./app/styles/footer.css": {
+      "footer": "_3aVZg"
+    },
+    "./app/styles/home.css": {
+      "logo": "_1SMze"
+    },
+    "./app/styles/global.css": "// removed by extract-text-webpack-plugin"
+  }
 }
